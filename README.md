@@ -135,9 +135,9 @@ Each page is a separate class with locators and user action methods for clean, m
 
 ## 👤 Author
 
-**Your Name**
-- LinkedIn: [www.linkedin.com/in/shilpa-rajappan](https://linkedin.com/in/yourprofile)
-- GitHub: [@shilpadhaneesh](https://github.com/yourusername)
+*Shilpa Dhaneesh*
+- LinkedIn: [linkedin.com/in/shilpadhaneesh](https://linkedin.com/in/shilpadhaneesh)
+- GitHub: [@shilpadhaneesh](https://github.com/shilpadhaneesh)
 
 ---
 
