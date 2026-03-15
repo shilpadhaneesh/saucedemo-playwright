@@ -136,7 +136,7 @@ Each page is a separate class with locators and user action methods for clean, m
 ## 👤 Author
 
 *Shilpa Dhaneesh*
-- LinkedIn: [linkedin.com/in/shilpa-dhaneesh](https://linkedin.com/in/shilpa-dhaneesh)
+- LinkedIn: [linkedin.com/in/shilpa-rajappan](https://linkedin.com/in/shilpa-rajappan)
 - GitHub: [@shilpadhaneesh](https://github.com/shilpadhaneesh)
 
 ---
