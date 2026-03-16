@@ -27,6 +27,7 @@ class TestCheckout:
     def test_cart_shows_correct_item(self, page: Page):
         cart = CartPage(page)
         cart.verify_on_cart_page()
+        page.pause()  # <--- Add this line
         assert "Sauce Labs Backpack" in cart.get_cart_item_names()
 
     @allure.title("Cart shows correct item count")

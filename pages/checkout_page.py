@@ -35,3 +35,4 @@ class CheckoutPage:
 
     def verify_error(self, message: str):
         expect(self.error_message).to_contain_text(message)
+
