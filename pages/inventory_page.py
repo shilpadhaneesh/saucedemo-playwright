@@ -11,6 +11,7 @@ class InventoryPage:
         self.menu_button = page.locator('#react-burger-menu-btn')
         self.logout_link = page.locator('#logout_sidebar_link')
         self.page_title = page.locator('.title')
+        self.inventory_items = self.product_list
 
     def get_product_count(self) -> int:
         return self.product_list.count()
@@ -49,3 +50,9 @@ class InventoryPage:
         self.menu_button.click()
         self.page.wait_for_selector('#logout_sidebar_link', state='visible')
         self.logout_link.click()
+
+    def get_product_names(self):
+        return self.get_all_product_names()
+
+    def get_product_prices(self):
+        return self.get_all_product_prices()

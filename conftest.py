@@ -30,7 +30,7 @@ def browser_context_args():
     return ctx
 
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def base_url():
     return BASE_URL
 
