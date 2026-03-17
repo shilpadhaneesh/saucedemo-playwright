@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '0 9 * * 1-5'  # 9am UK time, Mon-Fri
+    - cron: '0 9 * * 1-5'
 
 jobs:
   test:
@@ -31,8 +31,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Install Playwright Browsers
-        run: playwright install chromium --with-deps
-
+        run: playwright install --with-deps
 
       - name: Create reports directory
         run: mkdir -p reports allure-results
